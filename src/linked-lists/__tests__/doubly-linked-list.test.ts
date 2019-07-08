@@ -1,18 +1,18 @@
-import { SinglyLinkedList } from "../singly-linked-list";
+import { DoublyLinkedList } from "../doubly-linked-list";
 
-describe("SinglyLinkedList", () => {
-	let list: SinglyLinkedList<number>;
+describe("DoublyLinkedList", () => {
+	let list: DoublyLinkedList<number>;
 
 	afterEach(() => {
 		list = undefined;
 	});
 
 	beforeEach(() => {
-		list = new SinglyLinkedList<number>();
+		list = new DoublyLinkedList<number>();
 	});
 
 	it("is exported", () => {
-		expect(SinglyLinkedList).toBeDefined();
+		expect(DoublyLinkedList).toBeDefined();
 	});
 
 	describe("add()", () => {
@@ -49,7 +49,7 @@ describe("SinglyLinkedList", () => {
 	});
 
 	describe("iterator()", () => {
-		it("lists all node values", () => {
+		it.only("lists all node values", () => {
 			const vals = [...Array(20).keys()];
 			vals.forEach((val) => {
 				list.add(val);

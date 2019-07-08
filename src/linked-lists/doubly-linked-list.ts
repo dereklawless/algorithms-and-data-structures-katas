@@ -1,6 +1,6 @@
 import { LinkedListNode } from "./linked-list-node";
 
-export class SinglyLinkedList<T> {
+export class DoublyLinkedList<T> {
 	public head: LinkedListNode<T> = null;
 	public tail: LinkedListNode<T> = null;
 
@@ -17,11 +17,12 @@ export class SinglyLinkedList<T> {
 		const originalHeadNode = this.head;
 		this.head = node;
 
-		// Insert the rest of the list behind the head.
+		// Link the nodes.
 		this.head.next = originalHeadNode;
+		originalHeadNode.previous = this.head;
 
 		if (!this.tail) {
-			// There is one node in the list, set the tail to the head.
+			// There is one node in the list, set the tail node to the head.
 			this.tail = this.head;
 		}
 	}
@@ -33,7 +34,9 @@ export class SinglyLinkedList<T> {
 			this.head = node;
 		}
 		if (this.tail) {
+			// Link the nodes.
 			this.tail.next = node;
+			node.previous = this.tail;
 		}
 		// Set the new tail.
 		this.tail = node;
@@ -48,24 +51,23 @@ export class SinglyLinkedList<T> {
 	}
 
 	public removeAt(index: number): void {
-		let previous: LinkedListNode<T> = null;
 		let node = this.head;
 		let i = 0;
 
 		while (node && i++ < index) {
-			previous = node;
 			node = node.next;
 		}
 
 		// Bounds checking.
 		if (index >= i) { return; }
 
-		if (!previous) {
+		if (!node.previous) {
 			this.head = node.next;
 		} else {
-			previous.next = node.next;
+			node.previous.next = node.next;
+			node.next.previous = node.previous.next;
 		}
 	}
 }
 
-export default SinglyLinkedList;
+export default DoublyLinkedList;
