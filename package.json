@@ -1,0 +1,34 @@
+{
+  "name": "algorithms-and-data-structures-katas",
+  "version": "0.0.1",
+  "description": "Algorithms and data structures code katas.",
+  "main": "",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest"
+  },
+  "author": {
+    "name": "Derek Lawless",
+    "url": "https://dereklawless.ie"
+  },
+  "homepage": "https://github.com/dereklawless/algorithms-and-data-structures-katas#readme",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jest": "^24.0.15",
+    "jest": "^24.8.0",
+    "ts-jest": "^24.0.2",
+    "tslint": "^5.18.0",
+    "typescript": "^3.5.2"
+  },
+  "jest": {
+    "transform": {
+      "^.+\\.ts$": "ts-jest"
+    },
+    "testRegex": "(/__tests__/.+\\.test\\.ts)",
+    "moduleFileExtensions": [
+      "js",
+      "ts"
+    ]
+  },
+  "testEnvironment": "node"
+}
