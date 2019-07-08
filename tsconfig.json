@@ -1,19 +1,22 @@
 {
   "compileOnSave": false,
   "compilerOptions": {
+    "alwaysStrict": true,
 		"declaration": false,
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
 		"lib": [
       "dom",
-			"es2017",
+      "es6",
+			"es2017"
 		],
     "moduleResolution": "node",
+    "noImplicitAny": false,
 		"outDir": "./dist",
-		"sourceMap": true,
-    "target": "es6",
-    "typeRoots": [
-      "node_modules/@types"
-    ]
-  }
+		"sourceMap": false,
+    "target": "es6"
+  },
+  "exclude": [
+    "node_modules"
+  ]
 }

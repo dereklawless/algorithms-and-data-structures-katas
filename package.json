@@ -5,6 +5,7 @@
   "main": "",
   "scripts": {
     "build": "tsc",
+    "lint": "node node_modules/tslint/bin/tslint -c tslint.json --project tsconfig.json 'src/**/*.ts'",
     "test": "jest"
   },
   "author": {
@@ -21,14 +22,14 @@
     "typescript": "^3.5.2"
   },
   "jest": {
-    "transform": {
-      "^.+\\.ts$": "ts-jest"
-    },
-    "testRegex": "(/__tests__/.+\\.test\\.ts)",
     "moduleFileExtensions": [
       "js",
       "ts"
-    ]
+    ],
+    "testRegex": "(/__tests__/.+\\.test\\.ts)$",
+    "transform": {
+      "^.+\\.ts$": "ts-jest"
+    }
   },
   "testEnvironment": "node"
 }
