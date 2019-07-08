@@ -8,8 +8,7 @@ With a __Singly linked list__ each node points to the next node in the list, pro
 With a __Doubly linked list__ each node points to the previous and next node in the list.
 
 ### Performance characteristics
-#### Time complexity
-|Type |Insertion |Removal |Retrieval
+|Time complexity |Insertion |Removal |Retrieval
 |- |- |- |-
 |Singly linked list |O(1) |O(n) |O(n)
 |Doubly linked list |O(1) |O(1) |O(n)

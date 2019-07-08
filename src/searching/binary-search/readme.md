@@ -1,0 +1,11 @@
+# Binary search
+A binary search employs a divide and conquer strategy to find the position of a target value in a __sorted list__. Also known as a half-interval search, logarithmic search, or binary chop.
+
+### Performance characteristics
+|Time complexity
+|-
+|O(log n)
+
+|Space complexity |Notes
+|- |-
+|O(1) |Space taken by linear search is the same for any number of elements of the list

@@ -3,7 +3,7 @@ import { linearSearch } from "../linear-search";
 describe("linearSearch()", () => {
 	const values = "abcdefghijklmnopqrstuvwxyz".split("");
 
-	it(`returns the index of the matched value`, () => {
+	it("returns the indexes of the matched values", () => {
 		values.forEach((val, index) => {
 			expect(linearSearch(values, val)).toBe(index);
 		});
