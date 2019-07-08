@@ -1,14 +1,15 @@
 import { linearSearch } from "../linear-search";
 
 describe("linearSearch()", () => {
-	const values = [...Array(100).keys()];
+	const values = "abcdefghijklmnopqrstuvwxyz".split("");
 
-	it("returns the index of the matched value", () => {
-		const index = Math.floor(Math.random() * 100);
-		expect(linearSearch(values, index)).toBe(index);
+	it(`returns the index of the matched value`, () => {
+		values.forEach((val, index) => {
+			expect(linearSearch(values, val)).toBe(index);
+		});
 	});
 
 	it("returns -1 if there's no match", () => {
-		expect(linearSearch(values, 101)).toBe(-1);
+		expect(linearSearch(values, "*")).toBe(-1);
 	});
 });
