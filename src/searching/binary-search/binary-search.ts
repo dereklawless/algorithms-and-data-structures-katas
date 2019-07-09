@@ -7,13 +7,12 @@ export function binarySearch<T>(values: T[] = [], target: T): IBinarySearchResul
 	let low = 0;
 	let high = values.length - 1;
 	let middle = Math.floor(high / 2);
-	let iterations = 0;
+	let iterations = 1;
 
-	// Assumes a sorted array.
 	while (values[middle] !== target && low < high) {
 		if (target < values[middle]) {
 			high = middle - 1;
-		} else if (target > values[middle]) {
+		} else {
 			low = middle + 1;
 		}
 

@@ -13,6 +13,7 @@
     "url": "https://dereklawless.ie"
   },
   "homepage": "https://github.com/dereklawless/algorithms-and-data-structures-katas#readme",
+  "repository": "https://github.com/dereklawless/algorithms-and-data-structures-katas",
   "license": "ISC",
   "devDependencies": {
     "@types/jest": "^24.0.15",

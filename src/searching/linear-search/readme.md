@@ -1,5 +1,5 @@
 # Linear search
-A linear search moves sequentially through a list looking for a target value.
+A [linear search](https://en.wikipedia.org/wiki/Linear_search) moves sequentially through a list looking for a target value.
 
 ### Performance characteristics
 |Time complexity
