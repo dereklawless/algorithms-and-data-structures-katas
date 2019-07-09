@@ -12,3 +12,6 @@ With a __Doubly linked list__ each node points to the previous and next node in 
 |- |- |- |-
 |Singly linked list |O(1) |O(n) |O(n)
 |Doubly linked list |O(1) |O(1) |O(n)
+
+#### Why is a doubly linked list O(1) on removals?
+A doubly linked list does not have to be traversed to find the previous node as the node being removed includes a reference to it.
