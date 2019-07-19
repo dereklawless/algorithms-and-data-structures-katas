@@ -3,7 +3,7 @@ A [bubble sort](https://en.wikipedia.org/wiki/Bubble_sort) is a simple sorting a
 
 The pass through the list is repeated until no swaps are needed, indicating the list is sorted. Sometimes referred to as a sinking sort.
 
-### Performance characteristics
+## Characteristics
 |Time complexity
 |-
 |O(n<sup>2</sup>)

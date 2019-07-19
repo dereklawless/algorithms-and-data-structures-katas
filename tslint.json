@@ -37,7 +37,12 @@
         "triple-equals": [
             true,
             "allow-null-check"
-        ]
+        ],
+        "variable-name": {
+            "options": [
+                "allow-leading-underscore"
+            ]
+        }
     },
     "rulesDirectory": []
 }
