@@ -16,8 +16,8 @@ A collection of code katas for algorithms and data structures, primarily for my 
 
 ## Data structures
 ### Arrays
-- [Array list](src/data-structures/arrays/array-list/)
+- [Array list](src/data-structures/arrays/)
 
 ### Linked lists
-- [Doubly linked list](src/data-structures/linked-lists/doubly-linked-list/)
-- [Singly linked list](src/data-structures/linked-lists/singly-linked-list/)
+- [Doubly linked list](src/data-structures/linked-lists/)
+- [Singly linked list](src/data-structures/linked-lists/)
