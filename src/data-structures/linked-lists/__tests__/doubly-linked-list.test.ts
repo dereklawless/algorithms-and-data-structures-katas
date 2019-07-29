@@ -49,7 +49,7 @@ describe("DoublyLinkedList", () => {
 	});
 
 	describe("iterator()", () => {
-		it.only("lists all node values", () => {
+		it("lists all node values", () => {
 			const vals = [...Array(20).keys()];
 			vals.forEach((val) => {
 				list.add(val);

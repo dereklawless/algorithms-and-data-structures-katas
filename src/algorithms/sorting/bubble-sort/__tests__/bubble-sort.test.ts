@@ -1,7 +1,7 @@
 import { bubbleSort, bubbleSortOptimal } from "../bubble-sort";
 
 const unsortedValues = Array.from({ length: 100 }, () => Math.floor(Math.random() * 100));
-const sortedValues = unsortedValues.sort();
+const sortedValues = unsortedValues.sort((a, b) => a - b);
 
 describe("bubbleSort()", () => {
 	it("is exported", () => {
@@ -19,6 +19,6 @@ describe("bubbleSortOptimal()", () => {
 	});
 
 	it("sorts an array of numbers in the expected order", () => {
-		expect(bubbleSortOptimal(unsortedValues)).toBe(sortedValues);
+		expect(bubbleSortOptimal(unsortedValues)).toEqual(sortedValues);
 	});
 });
