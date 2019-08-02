@@ -1,5 +1,5 @@
 # Merge sort
-An [merge sort](https://en.wikipedia.org/wiki/Merge_sort) is a simple sorting algorithm that recursively splits a list into two similarly sized lists (_left_ and _right_), sorts each list, and merges the result.
+A [merge sort](https://en.wikipedia.org/wiki/Merge_sort) is an efficient sorting algorithm that recursively splits a list into two similarly sized lists (_left_ and _right_), sorts each list, and merges the result. 
 
 ## Characteristics
 |Time complexity

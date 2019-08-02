@@ -15,3 +15,5 @@ export function insertionSort<T>(values: T[] = []): T[] {
 
 	return values;
 }
+
+export default insertionSort;

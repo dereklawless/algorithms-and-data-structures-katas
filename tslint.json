@@ -25,6 +25,7 @@
             true,
             "match-declaration-order"
         ],
+        "prefer-for-of": false,
         "quotemark": [
             true,
             "double"

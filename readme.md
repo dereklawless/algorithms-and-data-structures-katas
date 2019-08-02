@@ -14,6 +14,7 @@ A collection of code katas for algorithms and data structures, primarily for my 
 - [Bubble sort](src/algorithms/sorting/bubble-sort/)
 - [Insertion sort](src/algorithms/sorting/insertion-sort/)
 - [Merge sort](src/algorithms/sorting/merge-sort/)
+- [Quick sort](src/algorithms/sorting/quick-sort/)
 
 ## Data structures
 ### Arrays

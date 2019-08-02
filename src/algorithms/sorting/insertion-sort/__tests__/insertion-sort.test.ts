@@ -1,7 +1,8 @@
 import { insertionSort } from "../insertion-sort";
 
 const unsortedValues = Array.from({ length: 100 }, () => Math.floor(Math.random() * 100));
-const sortedValues = unsortedValues.sort((a, b) => a - b);
+const sortedValues = Array.from(unsortedValues);
+sortedValues.sort((a, b) => a - b);
 
 describe("insertionSort()", () => {
 	it("is exported", () => {
