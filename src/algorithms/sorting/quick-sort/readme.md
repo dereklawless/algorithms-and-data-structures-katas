@@ -7,7 +7,6 @@ A [quick sort](https://en.wikipedia.org/wiki/Quick_sort) is an efficient sorting
 
 Using a random index or a _median of three_ approach for the pivot ensures worst case behaviour on already sorted arrays is avoided.
 
-
 ## Characteristics
 |Time complexity
 |-
