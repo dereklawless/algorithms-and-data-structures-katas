@@ -9,6 +9,7 @@ A collection of code katas for algorithms and data structures, primarily for my 
 ### Searching
 - [Binary search](src/algorithms/searching/binary-search/)
 - [Linear search](src/algorithms/searching/linear-search/)
+- [Smallest positive integer](src/algorithms/searching/smallest-positive-integer/)
 
 ### Sorting
 - [Bubble sort](src/algorithms/sorting/bubble-sort/)
