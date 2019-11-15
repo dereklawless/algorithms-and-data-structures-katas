@@ -11,7 +11,7 @@ export function smallestPositiveInteger(values: number[]) {
 			const next = workingSet[i + 1];
 
 			smallestInt = current + 1;
-			if ((current + 1) < next) {
+			if (smallestInt < next) {
 					smallestInt = current + 1;
 					break;
 			}
