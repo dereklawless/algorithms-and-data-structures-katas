@@ -24,3 +24,6 @@ A collection of code katas for algorithms and data structures, primarily for my 
 ### Linked lists
 - [Doubly linked list](src/data-structures/linked-lists/)
 - [Singly linked list](src/data-structures/linked-lists/)
+
+### Other
+- [Stacks](src/data-structures/stacks/)
