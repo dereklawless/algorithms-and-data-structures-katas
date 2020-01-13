@@ -8,11 +8,13 @@ A [quick sort](https://en.wikipedia.org/wiki/Quick_sort) is an efficient sorting
 Using a random index or a _median of three_ approach for the pivot ensures worst case behaviour on already sorted arrays is avoided.
 
 ## Characteristics
-|Time complexity
+### Time complexity
+|
 |-
 |O(n log n)
 
-|Space complexity |Notes
+### Space complexity
+|  |Notes
 |- |-
 |O(n log n) |The in-place version of quick sort
 |O(n)       |In this naive implementation three temporary lists are created and concatenated recursively

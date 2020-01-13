@@ -5,6 +5,11 @@ The LIFO implementation here uses an array.
 
 ## Characteristics
 ### Time complexity
-|Insertion |Removal |Retrieval
-|- |- |-
-|O(1) |O(1) |O(1)
+|Insertion |Removal |Retrieval |Notes
+|- |- |- |-
+|O(1) |O(1) |O(1) |Retrieval O(1) if popping, otherwise O(n)
+
+### Space complexity
+|
+|-
+|O(n)

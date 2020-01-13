@@ -2,6 +2,8 @@
 ## About
 A collection of code katas for algorithms and data structures, primarily for my own re-education.
 
+[Big O cheatsheet](https://www.bigocheatsheet.com/)
+
 ## Algorithms
 ### Prime numbers
 - [Sieve of Eratosthenes](src/algorithms/prime-numbers/)
@@ -26,4 +28,5 @@ A collection of code katas for algorithms and data structures, primarily for my 
 - [Singly linked list](src/data-structures/linked-lists/)
 
 ### Other
+- [Queues](src/data-structures/queues/)
 - [Stacks](src/data-structures/stacks/)

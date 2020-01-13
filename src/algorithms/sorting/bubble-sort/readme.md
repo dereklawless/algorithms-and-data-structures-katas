@@ -4,10 +4,12 @@ A [bubble sort](https://en.wikipedia.org/wiki/Bubble_sort) is a simple sorting a
 The pass through the list is repeated until no swaps are needed, indicating the list is sorted. Sometimes referred to as a sinking sort.
 
 ## Characteristics
-|Time complexity
+### Time complexity
+|
 |-
 |O(n<sup>2</sup>)
 
-|Space complexity |Notes
+### Space complexity
+|  |Notes
 |- |-
 |O(1) |The sorting operations take place on the unsorted array
