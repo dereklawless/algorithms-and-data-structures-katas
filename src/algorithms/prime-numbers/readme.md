@@ -7,4 +7,4 @@ The [Sieve of Eratosthenes](https://en.wikipedia.org/wiki/Sieve_of_Eratosthenes)
 ### Characteristics
 |Time complexity
 |-
-|O(n log log n)
+|Θ(n log log n)

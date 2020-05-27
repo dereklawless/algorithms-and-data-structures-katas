@@ -7,9 +7,9 @@ The LIFO implementation here uses an array.
 ### Time complexity
 |Insertion |Removal |Retrieval |Notes
 |- |- |- |-
-|O(1) |O(1) |O(1) |Retrieval O(1) if popping, otherwise O(n)
+|Θ(1) |Θ(1) |Θ(1) |Retrieval Θ(1) if popping, otherwise Θ(n)
 
 ### Space complexity
 |
 |-
-|O(n)
+|Θ(n)

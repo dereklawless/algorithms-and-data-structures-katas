@@ -11,10 +11,10 @@ Using a random index or a _median of three_ approach for the pivot ensures worst
 ### Time complexity
 |
 |-
-|O(n log n)
+|Θ(n log n)
 
 ### Space complexity
 |  |Notes
 |- |-
-|O(n log n) |The in-place version of quick sort
-|O(n)       |In this naive implementation three temporary lists are created and concatenated recursively
+|Θ(n log n) |The in-place version of quick sort
+|Θ(n)       |In this naive implementation three temporary lists are created and concatenated recursively

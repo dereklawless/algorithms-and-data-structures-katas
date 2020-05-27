@@ -4,8 +4,8 @@ A [merge sort](https://en.wikipedia.org/wiki/Merge_sort) is an efficient sorting
 ## Characteristics
 |Time complexity
 |-
-|O(n log n)
+|Θ(n log n)
 
 |Space complexity |Notes
 |- |-
-|O(n) |In this implementation two temporary lists are created and merged recursively
+|Θ(n) |In this implementation two temporary lists are created and merged recursively

@@ -4,8 +4,8 @@ A simple routine to determine the smallest positive integer in a range of number
 ## Characteristics
 |Time complexity
 |-
-|O(n)
+|Θ(n)
 
 |Space complexity |Notes
 |- |-
-|O(n) |A working set is derived from the provided array
+|Θ(n) |A working set is derived from the provided array

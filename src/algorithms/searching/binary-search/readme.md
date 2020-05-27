@@ -4,8 +4,8 @@ A [binary search](https://en.wikipedia.org/wiki/Binary_search_algorithm) employs
 ## Characteristics
 |Time complexity
 |-
-|O(log n)
+|Θ(log n)
 
 |Space complexity |Notes
 |- |-
-|O(1) |Space taken by linear search is the same for any number of elements of the list
+|Θ(1) |Space taken by linear search is the same for any number of elements of the list

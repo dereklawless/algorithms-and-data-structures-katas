@@ -7,9 +7,9 @@ A queue is a FIFO (first in, first out) data structure.
 ### Time complexity
 |Insertion |Removal |Retrieval
 |- |- |-
-|O(1) |O(1) |O(n)
+|Θ(1) |Θ(1) |Θ(n)
 
 ### Space complexity
 |
 |-
-|O(n)
+|Θ(n)

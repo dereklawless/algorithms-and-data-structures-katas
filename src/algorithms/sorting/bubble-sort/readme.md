@@ -7,9 +7,9 @@ The pass through the list is repeated until no swaps are needed, indicating the 
 ### Time complexity
 |
 |-
-|O(n<sup>2</sup>)
+|Θ(n<sup>2</sup>)
 
 ### Space complexity
 |  |Notes
 |- |-
-|O(1) |The sorting operations take place on the unsorted array
+|Θ(1) |The sorting operations take place on the unsorted array

@@ -4,11 +4,11 @@ A [linear search](https://en.wikipedia.org/wiki/Linear_search) moves sequentiall
 ## Characteristics
 |Time complexity
 |-
-|O(n)
+|Θ(n)
 
 |Space complexity |Notes
 |- |-
-|O(1) |Space taken by linear search is the same for any number of elements of the list
+|Θ(1) |Space taken by linear search is the same for any number of elements of the list
 
 ### Optimising
 A simple performance optimisation is to locate the values requested more frequently at the start of the list to minimise iterations.

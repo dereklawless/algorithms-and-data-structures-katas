@@ -9,7 +9,7 @@ Arrays have two key characteristics:
 ### Time complexity
 |Insertion |Removal |Retrieval
 |- |- |-
-|O(n) |O(n) |O(1)
+|Θ(n) |Θ(n) |Θ(1)
 
 ### How do dynamic arrays work?
 A dynamic array wraps a real array, abstracting the re-allocation of contiguous memory.

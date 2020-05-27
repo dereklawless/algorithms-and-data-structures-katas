@@ -6,8 +6,8 @@ An insertion sort is analogous to sorting a hand of playing cards i.e. take one 
 ## Characteristics
 |Time complexity
 |-
-|O(n<sup>2</sup>)
+|Θ(n<sup>2</sup>)
 
 |Space complexity |Notes
 |- |-
-|O(1) |The sorting operations take place on the unsorted array
+|Θ(1) |The sorting operations take place on the unsorted array
