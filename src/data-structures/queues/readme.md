@@ -5,11 +5,11 @@ A queue is a FIFO (first in, first out) data structure.
 
 ## Characteristics
 ### Time complexity
-|Insertion |Removal |Retrieval
-|- |- |-
-|Θ(1) |Θ(1) |Θ(n)
+|Insertion |Removal |Retrieval |Notes
+|- |- |- |-
+|Θ(1) |Θ(1) |Θ(n) |
 
 ### Space complexity
-|
-|-
-|Θ(n)
+| |Notes
+|- |-
+|Θ(n) |The elements in the queue

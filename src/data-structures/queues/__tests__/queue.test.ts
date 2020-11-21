@@ -49,6 +49,23 @@ describe("Queue", () => {
 			expect(queue.isEmpty()).toBe(true);
 		});
 	});
+
+	describe("length", () => {
+		it("with N enqueued elements, returns the correct length", () => {
+			seedQueue(queue);
+			expect(queue.length()).toBe(10);
+		});
+
+		it("with a dequeued element, returns the correct length", () => {
+			seedQueue(queue);
+			queue.dequeue();
+			expect(queue.length()).toBe(9);
+		});
+	});
+
+	describe("peek", () => {
+
+	});
 });
 
 function seedQueue(queue: Queue<number>): void {

@@ -5,10 +5,11 @@ export class Queue<T> {
 		this.elements = new Array<T>();
 	}
 
-	public dequeue(): T {
+	public dequeue(): T | undefined {
 		if (this.elements.length > 0) {
 			return this.elements.pop();
 		}
+		return undefined;
 	}
 
 	public enqueue(element: T): void {
@@ -21,5 +22,11 @@ export class Queue<T> {
 
 	public length(): number {
 		return this.elements.length;
+	}
+
+	public peek(): T | undefined {
+		return !this.isEmpty() ?
+			this.elements[this.elements.length - 1] :
+			undefined;
 	}
 }

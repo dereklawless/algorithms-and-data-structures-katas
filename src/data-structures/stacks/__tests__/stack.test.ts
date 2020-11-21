@@ -22,6 +22,10 @@ describe("Stack", () => {
 		});
 	});
 
+	describe("length()", () => {
+
+	});
+
 	describe("peek()", () => {
 		it("returns the most recently added element without removing it from the stack" , () => {
 			seedStack(stack);

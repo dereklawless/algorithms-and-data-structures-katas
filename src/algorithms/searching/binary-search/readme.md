@@ -2,10 +2,15 @@
 A [binary search](https://en.wikipedia.org/wiki/Binary_search_algorithm) employs a divide and conquer strategy to find the position of a target value in a __sorted list__. Also known as a half-interval search, logarithmic search, or binary chop.
 
 ## Characteristics
-|Time complexity
-|-
-|Θ(log n)
+### Complexity
+🔔 Complexity is considered in terms of worst case.
 
-|Space complexity |Notes
+#### Time complexity
+| |Notes
 |- |-
-|Θ(1) |Space taken by linear search is the same for any number of elements of the list
+|Θ(log n) |
+
+#### Space complexity
+| |Notes
+|- |-
+|Θ(1) |Requires three pointers to the list elements, regardless of list size

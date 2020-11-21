@@ -4,7 +4,14 @@ A [prime number](https://en.wikipedia.org/wiki/Prime_number) is a natural number
 ## Sieve of Eratosthenes
 The [Sieve of Eratosthenes](https://en.wikipedia.org/wiki/Sieve_of_Eratosthenes) is a simple, ancient algorithm for finding all prime numbers in a bounded set.
 
-### Characteristics
-|Time complexity
-|-
-|Θ(n log log n)
+## Characteristics
+### Complexity
+🔔 Complexity is considered in terms of worst case.
+
+#### Time complexity
+| |Notes
+|- |-
+|Θ(n log log n) |
+
+#### Space complexity
+TODO

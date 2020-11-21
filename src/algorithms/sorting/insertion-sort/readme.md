@@ -4,10 +4,15 @@ An [insertion sort](https://en.wikipedia.org/wiki/Insertion_sort) is a simple so
 An insertion sort is analogous to sorting a hand of playing cards i.e. take one card and then look at the rest with the intent of building up an ordered hand.
 
 ## Characteristics
-|Time complexity
-|-
-|Θ(n<sup>2</sup>)
+### Complexity
+🔔 Complexity is considered in terms of worst case.
 
-|Space complexity |Notes
+#### Time complexity
+| |Notes
+|- |-
+|Θ(n<sup>2</sup>) |
+
+#### Space complexity
+| |Notes
 |- |-
 |Θ(1) |The sorting operations take place on the unsorted array
