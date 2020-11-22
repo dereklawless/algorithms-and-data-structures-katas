@@ -6,9 +6,9 @@ A [linear search](https://en.wikipedia.org/wiki/Linear_search) moves sequentiall
 🔔 Complexity is considered in terms of worst case.
 
 #### Time complexity
-|
-|-
-|Θ(n)
+| |Notes
+|- |-
+|Θ(n) |
 
 #### Space complexity
 | |Notes

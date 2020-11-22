@@ -3,6 +3,8 @@ A [Queue](https://en.wikipedia.org/wiki/Queue_(abstract_data_type)) is a linear 
 
 A queue is a FIFO (first in, first out) data structure.
 
+![Queue](../../images/queue.svg)
+
 ## Characteristics
 ### Time complexity
 |Insertion |Removal |Retrieval |Notes

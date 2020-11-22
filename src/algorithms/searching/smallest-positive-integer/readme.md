@@ -6,7 +6,7 @@ A simple routine to determine the smallest positive integer in a range of number
 🔔 Complexity is considered in terms of worst case.
 
 #### Time complexity
-| |notes
+| |Notes
 |- |-
 |Θ(n) |
 
